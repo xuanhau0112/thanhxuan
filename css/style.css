@@ -1,0 +1,73 @@
+
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Roboto", sans-serif; font-size: 16px;color: #666666; margin: 0
+}
+header{
+	width: 100%; height: 70px; background-color: #D0D0D0; border-bottom: 1.5px 
+}
+.logo{
+	padding-top: 20px;
+}.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}.menu ul li a{
+	padding: 10px 25px; text-decoration: none; color: #0F0F0F; border-radius: 12px
+}
+.menu ul li a:hover{
+	background-color: #EF9400; color: #051DAB
+}
+.menu{
+	padding: 24px
+}
+.icon{
+	width: 12%;padding-top: 22px;display: flex;justify-content: space-around
+}
+main{
+	width: 100%;min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.text-do{
+	color: darkred
+}
+.vien{
+	border: 1px solid darkred;padding: 10px;border-radius:5px;position: relative;overflow: hidden
+}
+.icon1 {
+	width: 80%;height: 40px;position: absolute;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon1 a{
+	width: 40px;height: 40px;background-color: darkred;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: white
+}
+.icon1 a:hover{
+	background-color: white;color: darkred
+}
+.vien:hover .icon1{
+	top: 45%
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien-trang{
+	width: 100%;border: 1px solid white ;text-align: center;padding: 20px
+}
+.vien-trang a{
+	text-decoration: none;color: darkred;cursor: pointer
+}
+.vien-trang a:hover{
+	color: white
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center;padding-top: 10px 
+}
+.shadow{
+	border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;margin-bottom: 10px;width: 100%
+}
